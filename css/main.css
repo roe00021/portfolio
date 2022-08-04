@@ -160,6 +160,12 @@ footer{
 	border-radius: 0.2rem;
 	filter: drop-shadow(.4rem .4rem 0rem #00000016);
 }
+.text-center p{
+	margin: 0 auto;
+    width: 70%;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+}
 .portrait-img{
 	margin-top: 4rem;
 }
@@ -196,22 +202,22 @@ footer{
 }
 .a-content1{
 	grid-column: 1 / span 4;
-	grid-row: 1 / span 4;
+	grid-row: 1 / span 2;
 	display: none;
 }
 .a-content2{
-	grid-column: 5 / span 4;
-	grid-row: 1;
+	grid-column: 1 / span 4;
+	grid-row: 3;
 	display: none;
 }
 .a-content3{
-	grid-column: 5 / span 2;
-	grid-row: 2 / span 2;
+	grid-column: 1 / span 2;
+	grid-row: 4;
 	display: none;
 }
 .a-content4{
-	grid-column: 7 / span 2;
-	grid-row: 2 / span 2;
+	grid-column: 3 / span 2;
+	grid-row: 4;
 	display: none;
 }
 .grid-2{
@@ -227,6 +233,30 @@ footer{
 .a-content5{
 	grid-column: 1 / span 2;
 	grid-row: 3 / span 2;
+}
+
+.a-item1:active + .a-content1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.a-item2:active + .a-content2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	pointer-events:none;
+}
+.a-item3:active + .a-content3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	pointer-events:none;
+}
+.a-item4:active + .a-content4{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	pointer-events:none;
 }
 
 @media screen and (min-width: 600px){
@@ -344,17 +374,49 @@ footer{
 		grid-column: 3 / span 2;
 		grid-row: 1 / span 2;
 	}
+	.a-content1{
+		grid-column: 1 / span 4;
+		grid-row: 1 / span 4;
+		display: none;
+	}
+	.a-content2{
+		grid-column: 5 / span 4;
+		grid-row: 1;
+		display: none;
+	}
+	.a-content3{
+		grid-column: 5 / span 2;
+		grid-row: 2 / span 2;
+		display: none;
+	}
+	.a-content4{
+		grid-column: 7 / span 2;
+		grid-row: 2 / span 2;
+		display: none;
+	}
 	.a-item1:hover + .a-content1{
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		pointer-events:none;
 	}
 	.a-item2:hover + .a-content2{
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		pointer-events:none;
 	}
 	.a-item3:hover + .a-content3{
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		pointer-events:none;
 	}
 	.a-item4:hover + .a-content4{
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		pointer-events:none;
 	}
 }
 @media screen and (min-width: 900px){
