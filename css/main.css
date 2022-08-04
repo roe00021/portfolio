@@ -299,6 +299,9 @@ footer{
 	.g-content8{
 		order: 15;
 	}
+	.g-content{
+		margin-top: 4rem;
+	}
 /* about page */
 	.grid-1{
 		display: grid;
