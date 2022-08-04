@@ -91,6 +91,9 @@ img{
 	border-radius: .2rem;
 	color: #ffffff;
 }
+.button:hover{
+	color: #2A2A2A;
+}
 /* Creates footer section */
 .footer-img{
     background-image: url(../images/footer-background.png);
@@ -183,20 +186,24 @@ footer{
 	grid-row: 4;
 }
 .a-content1{
+	grid-column: 1 / span 4;
+	grid-row: 1 / span 4;
 	display: none;
-	order: 10;
 }
 .a-content2{
+	grid-column: 5 / span 4;
+	grid-row: 1;
 	display: none;
-	order: 11;
 }
 .a-content3{
+	grid-column: 5 / span 2;
+	grid-row: 2 / span 2;
 	display: none;
-	order: 12;
 }
 .a-content4{
+	grid-column: 7 / span 2;
+	grid-row: 2 / span 2;
 	display: none;
-	order: 13;
 }
 .grid-2{
 	display: grid;
@@ -393,5 +400,17 @@ footer{
 	.a-content5{
 		grid-column: 3 / span 2;
 		grid-row: 1 / span 2;
+	}
+	.a-item1:hover + .a-content1{
+		display: block;
+	}
+	.a-item2:hover + .a-content2{
+		display: block;
+	}
+	.a-item3:hover + .a-content3{
+		display: block;
+	}
+	.a-item4:hover + .a-content4{
+		display: block;
 	}
 }
