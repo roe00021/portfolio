@@ -235,24 +235,24 @@ footer{
 	grid-row: 3 / span 2;
 }
 
-.a-item1:active + .a-content1{
+.a-item1:hover + .a-content1{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-.a-item2:active + .a-content2{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	pointer-events:none;
-}
-.a-item3:active + .a-content3{
+.a-item2:hover + .a-content2{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	pointer-events:none;
 }
-.a-item4:active + .a-content4{
+.a-item3:hover + .a-content3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	pointer-events:none;
+}
+.a-item4:hover + .a-content4{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
