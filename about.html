@@ -18,33 +18,37 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <!-- bootstrap -->
+<!-- bootstrap hamburger menu with custom properties -->
 <header class="bg-white">
-  <nav class="navbar navbar-expand-md navbar-dark bg-white">
-    <div class="container-xl">
-      <a class="navbar-brand navbar-img" href="#"><img src="images/main-logo.png" alt="logo for the name mackenzie roe"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><img class="open" src="images/menu-open.svg" alt="menu icon"></span>
-        <span><img class="close" src="images/menu-closed.svg" alt="closed menu icon x"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-primary text-center"  href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active nav-link text-secondary text-center" aria-current="page" href="about.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-primary text-center" href="download-files/Mackenzie_Roe_Resume.pdf" target="_blank">CV</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-md navbar-dark bg-white">
+  <div class="container-xl">
+    <!-- adds logo -->
+    <a class="navbar-brand navbar-img" href="#"><img src="images/main-logo.png" alt="logo for the name mackenzie roe"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- adds SVGs for menu icons -->
+      <span><img class="open" src="images/menu-open.svg" alt="menu icon"></span>
+      <span><img class="close" src="images/menu-closed.svg" alt="closed menu icon x"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <!-- adds page links -->
+          <a class="nav-link active nav-link text-secondary text-center current-page" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary text-center" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary text-center" href="download-files/Mackenzie_Roe_Resume.pdf" target="_blank">CV</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 </header>
   <main>
+    <!-- creates container for main content -->
     <div class="main-content">
     <div class="text-center">
     <h1 role="heading">Mackenzie’s Creativity Kit!</h1>
@@ -54,7 +58,7 @@
     <div class="desktop-arrow">
       <i class="fa-solid fa-arrow-down"></i>
     </div>
-
+    <!-- creates content sections -->
     <div class="about-content wrapper">
       <div class="grid-1">
       <!-- content item 1 -->
@@ -106,7 +110,6 @@
   </main>
   <footer>
     <div class="wrapper">
-      <!-- <a class="button" href="#">Skills</a> -->
       <h2>Skills</h2>
       <h2 class="skills-text">· Bilingualism · HTML · CSS · CMS · Adobe Creative Suite · Sketch · Figma · Axure · InVision · Final Cut Pro X · </h2>
       </div>
@@ -114,6 +117,7 @@
       <div class="me-auto left-footer">
       <p>Mackenzie Roe</p>
       </div>
+      <!-- creates footer section for name and links -->
       <div class="ms-auto right-footer">
         <p>Contact:</p>
         <a class="footer-icons bold-f-i" href="mailto:mackenzieroe@outlook.com"><i class="fa-solid fa-at"></i></a>

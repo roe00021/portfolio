@@ -38,10 +38,11 @@ body{
 	font-weight: bold;
 	color: #2A2A2A;
 }
+/* sizes nav icon */
 .navbar-img{
 	max-width: 8%;
 }
-
+/* sets the wrapper width */
 .wrapper{
 	margin: 0 auto;
     width: 90%;
@@ -51,21 +52,25 @@ body{
 img{
     max-width: 100%;
 }
+/* targets portfolio home page images */
 .c-img{
 	margin-top: 4rem;
 	border-radius: 0.2rem;
 	filter: drop-shadow(.4rem .4rem 0rem #00000016);
 }
+/* targets bootstrap container width */
 .container-xl{
 	margin: 0 auto;
     width: 90%;
 	padding: 0;
 }
+/* targets navbar margin */
 .navbar{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	padding: 0;
 }
+/* creates open and close button change for toggling */
 button[aria-expanded="true"] .close {
     display: inline-block;
 }
@@ -78,13 +83,16 @@ button[aria-expanded="false"] .open{
 button[aria-expanded="false"] .close{
     display: none;
 }
+/* hides arrow to skip down page */
 .desktop-arrow{
 	display: none;
 }
+/* creates grid for home page */
 .portfolio-content{
 	display: grid;
 	grid-auto-rows: 1fr;
 }
+/* creates box content for titles and text on home page */
 .g-content{
 	margin-top: 1rem;
 	background-color: #ffffff;
@@ -94,6 +102,7 @@ button[aria-expanded="false"] .close{
 	filter: drop-shadow(.4rem .4rem 0rem #00000016);
 	text-align: center;
 }
+/* adds margins to home page content */
 .g-content h2{
 	margin-top: 1rem;
 }
@@ -102,6 +111,7 @@ button[aria-expanded="false"] .close{
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
+/* targets all buttons */
 .button{
 	display: block;
 	max-width: 200px;
@@ -115,6 +125,7 @@ button[aria-expanded="false"] .close{
 	border-radius: .2rem;
 	color: #ffffff;
 }
+/* creates hover color change for buttons */
 .button:hover{
 	color: #2A2A2A;
 }
@@ -137,6 +148,7 @@ button[aria-expanded="false"] .close{
 .bold-f-i{
 	font-weight: bold;
 }
+/* creates footer contact button */
 .f-button{
 	display: block;
 	max-width: 200px;
@@ -155,12 +167,14 @@ footer{
     text-align: center;
 	margin-top: 4rem;
 }
+/* creates flex for image footer section */
 .flex-footer{
 	display: flex;
 	flex-direction: row;
 	margin: 0 auto;
     width: 90%;
 }
+/* creates left and right footer contact info */
 .left-footer{
 	margin-top: 1rem;
 }
@@ -168,29 +182,34 @@ footer{
 	display: inline-flex;
 	margin-top: 1rem;
 }
+/* styles footer icons */
 .footer-icons{
     color: #2A2A2A;
     font-size: 1rem;
     padding-left: .5rem;
     padding-right: .5rem;
 }
-/* about page */
+/* ----ABOUT PAGE---- */
 .about-img{
 	border-radius: 0.2rem;
 	filter: drop-shadow(.4rem .4rem 0rem #00000016);
 }
+/* styles centered text with p tags */
 .text-center p{
 	margin: 0 auto;
     width: 70%;
 	margin-bottom: 4rem;
 	margin-top: 2rem;
 }
+/* adds margin on portrait image */
 .portrait-img{
 	margin-top: 4rem;
 }
+/* adds margins to skills section */
 .skills-text{
 	margin-top: 2rem;
 }
+/* styles the hover and active sections */
 .a-content{
 	background-color: #ffffff;
 	border-style: solid;
@@ -199,10 +218,12 @@ footer{
 	filter: drop-shadow(.4rem .4rem 0rem #00000016);
 	text-align: center;
 }
+/* styles p tags for content */
 .a-content p{
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
+/* creates grid for creative section */
 .grid-1{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -210,6 +231,7 @@ footer{
 	grid-auto-columns: 1fr;
 	grid-gap: 1rem;
 }
+/* places grid elements */
 .a-item1{
 	grid-column: 1 / span 4;
 	grid-row: 1 / span 4;
@@ -226,6 +248,7 @@ footer{
 	grid-column: 3 / span 2;
 	grid-row: 4;
 }
+/* places and hides hover state elements */
 .a-content1{
 	grid-column: 1 / span 4;
 	grid-row: 1 / span 2;
@@ -246,21 +269,7 @@ footer{
 	grid-row: 4;
 	display: none;
 }
-.grid-2{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-auto-columns: 1fr;
-	grid-gap: 2rem;
-}
-.a-item5{
-	grid-column: 1 / span 2;
-	grid-row: 1 / span 2;
-}
-.a-content5{
-	grid-column: 1 / span 2;
-	grid-row: 3 / span 2;
-}
-
+/* creates hover state for web and active state for mobile  */
 .a-item1:hover + .a-content1{
 	display: flex;
 	flex-direction: column;
@@ -285,40 +294,37 @@ footer{
 	justify-content: center;
 	pointer-events:none;
 }
-
+/* creates grid for about me section */
+.grid-2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-columns: 1fr;
+	grid-gap: 2rem;
+}
+/* places grid element for about me section */
+.a-item5{
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 2;
+}
+.a-content5{
+	grid-column: 1 / span 2;
+	grid-row: 3 / span 2;
+}
+/* creates web viewport */
 @media screen and (min-width: 600px){
     *{
         margin:0;
         padding: 0;
     }
+	/* changes grid layout for home section */
 	.p-container{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1rem;
 	}
+	/* changes order of grid elements */
 	.g-item1{
 		order: 1;
-	}
-	.g-item2{
-		order: 4;
-	}
-	.g-item3{
-		order: 5;
-	}
-	.g-item4{
-		order: 8;
-	}
-	.g-item5{
-		order: 9;
-	}
-	.g-item6{
-		order: 12;
-	}
-	.g-item7{
-		order: 13;
-	}
-	.g-item8{
-		order: 16;
 	}
 	.g-content1{
 		order: 2;
@@ -326,11 +332,23 @@ footer{
 	.g-content2{
 		order: 3;
 	}
+	.g-item2{
+		order: 4;
+	}
+	.g-item3{
+		order: 5;
+	}
 	.g-content3{
 		order: 6;
 	}
 	.g-content4{
 		order: 7;
+	}
+	.g-item4{
+		order: 8;
+	}
+	.g-item5{
+		order: 9;
 	}
 	.g-content5{
 		order: 10;
@@ -338,16 +356,27 @@ footer{
 	.g-content6{
 		order: 11;
 	}
+	.g-item6{
+		order: 12;
+	}
+	.g-item7{
+		order: 13;
+	}
 	.g-content7{
 		order: 14;
 	}
 	.g-content8{
 		order: 15;
 	}
+	.g-item8{
+		order: 16;
+	}
+	/* adds top margin for grid section */
 	.g-content{
 		margin-top: 4rem;
 	}
-/* about page */
+/* ----ABOUT PAGE---- */
+	/* creates web grid for creative section */
 	.grid-1{
 		display: grid;
 		grid-template-columns: repeat(8, 1fr);
@@ -355,6 +384,7 @@ footer{
 		grid-auto-columns: auto;
 		grid-gap: 1rem;
 	}
+	/* moves grid elements */
 	.a-item1{
 		grid-column: 1 / span 4;
 		grid-row: 1 / span 4;
@@ -371,9 +401,7 @@ footer{
 		grid-column: 7 / span 2;
 		grid-row: 2 / span 2;
 	}
-	.portrait-img{
-		margin-top: 0;
-	}
+	/* creates grid for web about me section */
 	.grid-2{
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
@@ -381,6 +409,11 @@ footer{
 		grid-gap: 1rem;
 		margin-top: 4rem;
 	}
+	/* removes margin to align items */
+	.portrait-img{
+		margin-top: 0;
+	}
+	/* moves grid elements */
 	.a-item5{
 		grid-column: 1 / span 2;
 		grid-row: 1 / span 2;
@@ -389,6 +422,7 @@ footer{
 		grid-column: 3 / span 2;
 		grid-row: 1 / span 2;
 	}
+	/* moves grid elements for hover and active states */
 	.a-content1{
 		grid-column: 1 / span 4;
 		grid-row: 1 / span 4;
@@ -409,14 +443,9 @@ footer{
 		grid-row: 2 / span 2;
 		display: none;
 	}
-}
-@media screen and (min-width: 900px){
-    *{
-        margin:0;
-        padding: 0;
-	}
+	/* creates max viewport size */
 	.main-content{
-		max-width: 1000px;
+		max-width: 1200px;
 		margin: 0 auto;
 	}
 }
