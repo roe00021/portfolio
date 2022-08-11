@@ -33,8 +33,11 @@ body{
     background-color: #ffffff;
     font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
-
-
+.navbar-nav{
+	font-size: min(max(16px, 2vw), 22px);
+	font-weight: bold;
+	color: #2A2A2A;
+}
 .navbar-img{
 	max-width: 8%;
 }
@@ -62,6 +65,18 @@ img{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	padding: 0;
+}
+button[aria-expanded="true"] .close {
+    display: inline-block;
+}
+button[aria-expanded="true"] .open {
+    display: none;
+}
+button[aria-expanded="false"] .open{
+    display: inline-block;
+}
+button[aria-expanded="false"] .close{
+    display: none;
 }
 .desktop-arrow{
 	display: none;
