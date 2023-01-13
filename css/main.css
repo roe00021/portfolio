@@ -316,6 +316,10 @@ footer{
         margin:0;
         padding: 0;
     }
+	/* creates hover animation */
+	.home-hover:hover{
+    	opacity:0.5;
+	}
 	/* changes grid layout for home section */
 	.p-container{
 	display: grid;
