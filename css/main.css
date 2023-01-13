@@ -454,7 +454,6 @@ footer{
 .banner-img{
 	display: flex;
 	flex-direction: column;
-    background-image: url(../images/dsbn-redesign/dsbn-banner.png);
     background-size: cover;
     background-position-y: center;
 	justify-content: center;
@@ -470,9 +469,16 @@ footer{
 	grid-gap: 1rem;
 	}
 /* ----DSBN REDESIGN---- */
+.banner-img-1{
+	background-image: url(../images/dsbn-redesign/dsbn-banner.png);
+}
 .s-span{
 	grid-column: 1 / span 2;
 }
 .s-center{
 	text-align: center;
+}
+/* ----MY-STUDENT-HOUSE---- */
+.banner-img-2{
+	background-image: url(../images/msh/display-msh.png);
 }
