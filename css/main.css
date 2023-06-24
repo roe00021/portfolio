@@ -162,6 +162,9 @@ button[aria-expanded="false"] .close{
 	border-radius: .2rem;
 	color: #9825FB;
 }
+.f-button:hover{
+	color: #2A2A2A;
+}
 footer{
     background-color: #ffffff;
     text-align: center;
