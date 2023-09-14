@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mackenzie Roe</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- adds bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <!-- font awesome kit implementation -->
+   <script src="https://kit.fontawesome.com/572c8d7756.js" crossorigin="anonymous"></script>
+  <!-- adds Foogle fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+ <!-- links css -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- bootstrap hamburger menu with custom properties -->
+<header class="bg-white">
+<nav class="navbar navbar-expand-md navbar-dark bg-white">
+  <div class="container-xl">
+    <!-- adds logo -->
+    <a class="navbar-brand navbar-img" href="#"><img src="images/main-logo.png" alt="logo for the name mackenzie roe"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- adds SVGs for menu icons -->
+      <span><img class="open" src="images/menu-open.svg" alt="menu icon"></span>
+      <span><img class="close" src="images/menu-closed.svg" alt="closed menu icon x"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-primary text-center" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-primary text-center" href="about.html">ABOUT</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary text-center" href="download-files/Mackenzie_Roe_Resume.pdf" target="_blank">CV</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main>
+  <div class="password-content">
+    <h1>Enter the Password</h1>
+      <form id="passwordForm">
+      <input class="input" type="password" id="passwordInput" placeholder="Password">
+      <button class="submit" type="submit">Submit</button>
+   </form>
+   <p id="passwordMessage"></p>
+  </div>
+</main>
+  <footer class="password-footer">
+    <div class="wrapper">
+    <div class="flex-footer">
+      <div class="me-auto left-footer">
+      <p>Mackenzie Roe</p>
+      </div>
+      <!-- creates footer section for name and links -->
+      <div class="ms-auto right-footer">
+        <p>Contact:</p>
+        <a class="footer-icons bold-f-i" href="mailto:mackenzieroe@outlook.com"><i class="fa-solid fa-at"></i></a>
+        <a class="footer-icons" href="https://github.com/roe00021" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a class="footer-icons" href="https://www.linkedin.com/in/mackenzie-roe/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="footer-icons" href="https://www.behance.net/mackenzieroe" target="_blank"><i class="fa-brands fa-behance"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- boostrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="main.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>

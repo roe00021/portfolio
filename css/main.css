@@ -12,7 +12,13 @@ h1{
 	color: #2A2A2A;
 }
 h2{
-    font-size: min(max(16px, 2vw), 22px);
+	margin-top: 2rem;
+    font-size: min(max(18px, 4vw), 32px);
+	color: #2A2A2A;
+}
+h3{
+	margin-top: 1rem;
+	font-size: min(max(16px, 2vw), 22px);
     font-weight: bold;
 	color: #2A2A2A;
 }
@@ -129,6 +135,39 @@ button[aria-expanded="false"] .close{
 .button:hover{
 	color: #2A2A2A;
 }
+/* creates password sumbit button */
+.submit{
+		max-width: 200px;
+		margin: 0 auto 0.5rem;
+		font-size: 0.875rem;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 12px 20px 12px 20px;
+		background-color: #9825FB;
+		filter: drop-shadow(.4rem .4rem 0rem #00000016);
+		border-radius: .2rem;
+		border: none;
+		color: #ffffff;
+}
+/* creates input field */
+.input{
+	
+	margin: 0 auto 0.5rem;
+	font-size: 0.875rem;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-radius: .2rem;
+	border-color: #2A2A2A;
+	filter: drop-shadow(.4rem .4rem 0rem #00000016);
+	text-align: center;
+}
+/* Password section */
+.password-content{
+	display: block;
+	text-align: center;
+}
 /* Creates footer section */
 .footer-img{
 	display: flex;
@@ -169,6 +208,12 @@ footer{
     background-color: #ffffff;
     text-align: center;
 	margin-top: 4rem;
+}
+.password-footer{
+	position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 /* creates flex for image footer section */
 .flex-footer{
@@ -457,6 +502,124 @@ footer{
 	}
 }
 /* ----CONTENT SUB PAGES---- */
+/* ----GGP---- */
+.banner-img-ggp{
+	background-image: url(../images/ggp/banner-ggp.png);
+}
+.ggp-content{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-gap: 1rem;
+	row-gap: 3rem;
+}
+.ggp-content img{
+	border-style: solid;
+    border-radius: 0.2rem;
+    border-color: #9825FB;
+    filter: drop-shadow(0.4rem 0.4rem 0rem #00000016);
+}
+.ggp-title{
+	grid-column: span 8;
+}
+.p-item1{
+	grid-column: span 4;
+}
+.p-item2{
+	grid-column: 6;
+}
+.p-item3{
+	grid-column: 8;
+}
+.p-item4{
+	grid-column: span 5;
+}
+.p-item5{
+	grid-column: span 8;
+}
+.p-item6{
+	grid-column: span 5;
+}
+.p-img6{
+	grid-column: span 3;
+}
+
+.p-item7{
+	grid-column: span 5;
+}
+.p-img7{
+	grid-column: span 3;
+}
+
+.p-item8{
+	grid-column: span 5;
+}
+.p-img8{
+	grid-column: span 3;
+}
+
+.p-item9{
+	grid-column: span 5;
+}
+
+.p-item10{
+	grid-column: span 5;
+}
+.p-img10{
+	grid-column: span 3;
+}
+
+.p-item11{
+	grid-column: span 5;
+}
+
+.p-item12{
+	grid-column: span 5;
+}
+.p-img12{
+	grid-column: span 3;
+	padding-top: 3rem;
+}
+
+.p-item13{
+	grid-column: span 5;
+	padding-top: 3rem;
+}
+.p-img13{
+	grid-column: span 3;
+}
+
+.p-item14{
+	grid-column: span 5;
+}
+.p-img14{
+	grid-column: span 3;
+	padding-top: 3rem;
+}
+
+.p-img15{
+	grid-column: span 3;
+}
+.p-item15{
+	grid-column: span 5;
+	padding-top: 3rem;
+}
+
+.p-img16{
+	grid-column: span 3;
+	padding-top: 3rem;
+}
+.p-item16{
+	grid-column: span 5;
+}
+
+.p-img17{
+	grid-column: span 3;
+}
+.p-item17{
+	grid-column: span 5;
+	padding-top: 3rem;
+}
+
 /* ----GLOBAL---- */
 .banner-img{
 	display: flex;
