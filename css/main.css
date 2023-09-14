@@ -178,6 +178,10 @@ button[aria-expanded="false"] .close{
 	justify-content: center;
 	aspect-ratio: 16/7;
 }
+.footer-h3{
+	color: #ffffff;
+	padding-bottom: 1rem;
+}
 .footer-img h2{
 	color: #ffffff;
 	margin-left: 2rem;
