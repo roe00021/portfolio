@@ -506,6 +506,13 @@ footer{
 	}
 }
 /* ----CONTENT SUB PAGES---- */
+/* ----E-Learning Portal---- */
+.banner-img-learning{
+	background-image: url(../images/learning/banner-portal.png);
+}
+
+
+
 /* ----GGP---- */
 .banner-img-ggp{
 	background-image: url(../images/ggp/banner-ggp.png);
