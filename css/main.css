@@ -517,17 +517,17 @@ footer{
 
 
 
-/* ----GGP---- */
+/* ----GGP & Portal---- */
 .banner-img-ggp{
 	background-image: url(../images/ggp/banner-ggp.jpg);
 }
-.ggp-content{
+.page-content{
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-gap: 1rem;
 	row-gap: .5rem;
 }
-.ggp-content img{
+.page-content img{
 	border-style: solid;
     border-radius: 0.2rem;
     border-color: #9825FB;
@@ -538,6 +538,9 @@ footer{
 }
 .image-pad3{
 	padding-top: 3rem;
+}
+.page-pd5{
+	padding-top: 5rem;
 }
 .page-pd3{
 	padding-top: 3rem;
