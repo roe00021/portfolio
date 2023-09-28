@@ -14,12 +14,13 @@ h1{
 h2{
 	margin-top: 2rem;
     font-size: min(max(18px, 4vw), 32px);
+	font-weight: bold;
 	color: #2A2A2A;
 }
 h3{
 	margin-top: 1rem;
 	font-size: min(max(16px, 2vw), 22px);
-    font-weight: bold;
+    /* font-weight: bold; */
 	color: #2A2A2A;
 }
 p{
@@ -167,6 +168,9 @@ button[aria-expanded="false"] .close{
 .password-content{
 	display: block;
 	text-align: center;
+}
+.password-content form{
+	margin-top: 5rem;
 }
 /* Creates footer section */
 .footer-img{
@@ -508,14 +512,14 @@ footer{
 /* ----CONTENT SUB PAGES---- */
 /* ----E-Learning Portal---- */
 .banner-img-learning{
-	background-image: url(../images/learning/banner-portal.png);
+	background-image: url(../images/learning/banner-portal.jpg);
 }
 
 
 
 /* ----GGP---- */
 .banner-img-ggp{
-	background-image: url(../images/ggp/banner-ggp.png);
+	background-image: url(../images/ggp/banner-ggp.jpg);
 }
 .ggp-content{
 	display: grid;
@@ -613,6 +617,25 @@ footer{
 .p-item15{
 	grid-column: span 5;
 	padding-top: 3rem;
+}
+
+.p-img15-1{
+	grid-column: span 4;
+}
+.p-img15-2{
+	grid-column: span 4;
+}
+.p-img15-3{
+	grid-column: span 2;
+}
+.p-img15-4{
+	grid-column: span 2;
+}
+.p-img15-5{
+	grid-column: span 2;
+}
+.p-img15-6{
+	grid-column: span 2;
 }
 
 .p-img16{
