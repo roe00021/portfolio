@@ -108,6 +108,9 @@ button[aria-expanded="false"] .close{
 	border-color: #9825FB;
 	filter: drop-shadow(.4rem .4rem 0rem #00000016);
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 /* adds margins to home page content */
 .g-content h2{
@@ -115,8 +118,8 @@ button[aria-expanded="false"] .close{
 }
 .g-content p{
 	margin-top: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: 1.3rem;
+	margin-right: 1.3rem;
 }
 /* targets all buttons */
 .button{
