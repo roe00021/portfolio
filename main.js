@@ -12,6 +12,14 @@ const passwords = {
         "protected-content1": "ggp.html",
         "protected-content2": "e-learning-portal.html"
     },
+    "roe2024": {
+        "protected-content1": "ggp.html",
+        "protected-content2": "e-learning-portal.html"
+    },
+    "roe-folio": {
+        "protected-content1": "ggp.html",
+        "protected-content2": "e-learning-portal.html"
+    },
     // Add more passwords and content page mappings here
 };
 
